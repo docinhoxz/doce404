@@ -1,0 +1,50 @@
+<div class="video-container">
+  <div id="video_cover"></div>
+  <video id='myVideo' autoplay muted loop #bgVideo>
+    <source src="../../../assets/videos/bgVideoChromeBeretta.mp4" type="video/mp4">
+  </video>
+
+  <div class="video-overlay"></div>
+</div>
+
+<div class="container-info">
+  <div class="grid content-center justify-items-center text-white">
+    <app-clock></app-clock>
+
+    <p class="text-white font-semibold my-4 text-[18px] md:text-[25px]">
+      paloma .gg/sungifs
+    </p>
+
+    <section class="glowing-icons">
+      <ul class="flex flex-wrap gap-2">
+        <li>
+          <a href="hhttps://br.pinterest.com/disketh/" target="_blank">
+            <i class="fa-brands fa-pinterest"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCOyzwzgzAqVpjRK7XmlNF5Q" target="_blank">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/palom_ahr/" target="_blank" >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://discord.gg/sungifs" target="_blank">
+            <i class="fa-brands fa-discord"></i>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+  </div>
+
+  <i class='iconVolume text-white bx bxs-volume-mute bx-tada bx-flip-vertical' #iconVolume (click)="toggleMute()"></i>
+
+  <app-card-profile></app-card-profile>
+</div>
+
+
